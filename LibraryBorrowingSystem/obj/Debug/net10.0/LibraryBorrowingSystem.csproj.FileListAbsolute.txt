@@ -1,0 +1,14 @@
+C:\Users\HP\source\repos\LibraryBorrowingSystem\LibraryBorrowingSystem\bin\Debug\net10.0\LibraryBorrowingSystem.exe
+C:\Users\HP\source\repos\LibraryBorrowingSystem\LibraryBorrowingSystem\bin\Debug\net10.0\LibraryBorrowingSystem.deps.json
+C:\Users\HP\source\repos\LibraryBorrowingSystem\LibraryBorrowingSystem\bin\Debug\net10.0\LibraryBorrowingSystem.runtimeconfig.json
+C:\Users\HP\source\repos\LibraryBorrowingSystem\LibraryBorrowingSystem\bin\Debug\net10.0\LibraryBorrowingSystem.dll
+C:\Users\HP\source\repos\LibraryBorrowingSystem\LibraryBorrowingSystem\bin\Debug\net10.0\LibraryBorrowingSystem.pdb
+C:\Users\HP\source\repos\LibraryBorrowingSystem\LibraryBorrowingSystem\obj\Debug\net10.0\LibraryBorrowingSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\LibraryBorrowingSystem\LibraryBorrowingSystem\obj\Debug\net10.0\LibraryBorrowingSystem.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\LibraryBorrowingSystem\LibraryBorrowingSystem\obj\Debug\net10.0\LibraryBorrowingSystem.AssemblyInfo.cs
+C:\Users\HP\source\repos\LibraryBorrowingSystem\LibraryBorrowingSystem\obj\Debug\net10.0\LibraryBorrowingSystem.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\LibraryBorrowingSystem\LibraryBorrowingSystem\obj\Debug\net10.0\LibraryBorrowingSystem.dll
+C:\Users\HP\source\repos\LibraryBorrowingSystem\LibraryBorrowingSystem\obj\Debug\net10.0\refint\LibraryBorrowingSystem.dll
+C:\Users\HP\source\repos\LibraryBorrowingSystem\LibraryBorrowingSystem\obj\Debug\net10.0\LibraryBorrowingSystem.pdb
+C:\Users\HP\source\repos\LibraryBorrowingSystem\LibraryBorrowingSystem\obj\Debug\net10.0\LibraryBorrowingSystem.genruntimeconfig.cache
+C:\Users\HP\source\repos\LibraryBorrowingSystem\LibraryBorrowingSystem\obj\Debug\net10.0\ref\LibraryBorrowingSystem.dll
