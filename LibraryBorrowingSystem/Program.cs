@@ -18,11 +18,11 @@ class Program
         while (running)
         {
             Console.WriteLine("====== Library System ======");
-            Console.WriteLine("1 - Add Physical Book");
-            Console.WriteLine("2 - Add EBook");
-            Console.WriteLine("3 - Register Member");
-            Console.WriteLine("4 - Borrow Book");
-            Console.WriteLine("5 - Return Book");
+            Console.WriteLine("1 - Add Book");
+            Console.WriteLine("2 - Register Member");
+            Console.WriteLine("3 - Borrow Book");
+            Console.WriteLine("4 - Return Book");
+            Console.WriteLine("5 - Search Book");
             Console.WriteLine("6 - View Available Books");
             Console.WriteLine("7 - Exit");
 
@@ -64,7 +64,7 @@ class Program
                     {
                         int memberId = ReadInt("Enter member id: ");
                         string name = ReadNonEmptyString("Enter member name: ");
-                        string email = ReadNonEmptyString("Enter member email: ");
+                        string email = ReadEmail("Enter member email: ");
 
                         Member member = new Member(memberId, name, email);
                         libraryService.RegisterMember(member);
@@ -205,6 +205,19 @@ class Program
         }
 
         return input;
+    }
+    static string ReadEmail(string message)
+    {
+        Console.Write(message);
+        string email = Console.ReadLine();
+
+        while (string.IsNullOrWhiteSpace(email) || !email.Contains("@") || !email.Contains("."))
+        {
+            Console.Write("Invalid email format, try again: ");
+            email = Console.ReadLine();
+        }
+
+        return email;
     }
 
     static void Pause()

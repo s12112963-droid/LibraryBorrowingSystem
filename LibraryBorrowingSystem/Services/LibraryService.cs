@@ -9,7 +9,7 @@ namespace LibraryBorrowingSystem.Services
     {
        private List<Book> books=new List<Book>();
        private List<Member> members=new List<Member>();
-
+       private int bookCounter = 1;
 
         public void AddBook(Book book)
         {
@@ -17,6 +17,7 @@ namespace LibraryBorrowingSystem.Services
             {
                 throw new ArgumentNullException(nameof(book), "Book cannot be null");
             }
+            book.Id = bookCounter++;
             books.Add(book);
         }
 
@@ -61,7 +62,8 @@ namespace LibraryBorrowingSystem.Services
             }
 
             book.IsAvailable = false; // Mark the book as borrowed
-            var borrowDays = book.GetBorrowDays(); 
+            var borrowDays = book.GetBorrowDays();
+            Console.WriteLine($"Borrow period: {borrowDays} days");
             return true;
             
 
